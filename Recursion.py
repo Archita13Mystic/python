@@ -1,10 +1,10 @@
-"""def f(n):
+def f(n):
     if n>1:
         return n+(f(n-1))
     else:
         return n
 p=int(input("enter p: "))
-print(f(p))"""
+print(f(p))
 
 
 
@@ -17,12 +17,3 @@ c=int(input("c: "))
 ptint(root_1(a,b,c))
 print(root_2(a,b,c))
 """
-
-
-
-f=lambda a,b=3: a**b
-l=list(map(int(input("Enter numbers separated by $").split('$'))))
-
-
-#map (function , iterable)
-
